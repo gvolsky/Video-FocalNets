@@ -1,0 +1,26 @@
+import setuptools
+
+setuptools.setup(
+    name='Video-FocalNets',
+    version='0.1',
+    author='Syed Talal Wasim and Muhammad Uzair Khattak and Muzammal Naseer and Salman Khan and Mubarak Shah and Fahad Shahbaz Khan',
+    description='Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition',
+    long_description_content_type="text/markdown",
+    url='https://github.com/gvolsky/Video-FocalNets',
+    license='MIT',
+    packages=setuptools.find_packages(exclude=['tests']),
+    install_requires=['decord',
+                      'einops',
+                      'imgaug',
+                      'numpy',
+                      'pandas',
+                      'Pillow',
+                      'PyYAML',
+                      'termcolor',
+                      'thop',
+                      'timm',
+                      'torch',
+                      'torchvision',
+                      'yacs',
+                     ],
+)
